@@ -14,6 +14,16 @@
 
 => Stay in the virtual environment, start installing needed packages
 
+
+🍧Option 1:use requirement.txt
+
+    ----
+    pip install -r requirements.txt
+    ----
+    This command installs all the packages listed in the requirements.txt file with the specified versions.
+
+🍧Option 2: install packages manually through pip
+
 Jupyter lab 
 (if using Kaggle website to run script, can skip)
 
@@ -60,6 +70,14 @@ scikit-learn
 (alternative for removing stopwords])
 
     pip install scikit-learn
+
+---------------
+=>(optional) 
+  Save the installed packages to a requirements.txt file
+    
+    pip freeze > requirements.txt
+    
+    🐦It's a good practice for future reference! 
 
 
 
