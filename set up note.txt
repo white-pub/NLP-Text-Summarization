@@ -1,0 +1,65 @@
+=>Create a New Repository on GitHub
+=>Clone the Repository Using GitHub Desktop
+        stored the project on your local machine under C:\Users\...Github\folder name
+
+=>Navigate to the directory where the repository was cloned
+        cd path_name
+=>Create a Virtual Environment named venv
+        python -m venv venv
+=>Activate the virtual environment (on Windows)
+    🎀-----------------------🎀
+        venv\Scripts\activate
+    🎀-----------------------🎀
+        should see the (venv) in cmd
+
+=> Stay in the virtual environment, start installing needed packages
+
+Jupyter lab 
+(if using Kaggle website to run script, can skip)
+
+    pip install jupyterlab
+
+Pandas
+(For data processing, this will automatically include numpy)
+    
+    pip install pandas
+
+Matplotlib and Seaborn
+(For data visualization)
+
+    pip install matplotlib seaborn
+
+WordCloud
+(For generating word clouds.)
+
+    pip install wordcloud
+
+
+Plotly
+(For interactive visualizations.)
+
+    pip install plotly
+
+------
+Natural Language Processing (NLP) Libraries
+
+spaCy
+
+    Using pip, spaCy releases are available as source packages and binary wheels. Before you install spaCy and its dependencies, make sure that your pip, setuptools and wheel are up to date. 
+    (from spaCy documentation- https://spacy.io/usage)
+
+    pip install -U pip setuptools wheel
+    pip install -U spacy
+
+nltk
+(For stopwords and other NLP utilities)
+
+    pip install nltk
+
+scikit-learn
+(alternative for removing stopwords])
+
+    pip install scikit-learn
+
+
+
